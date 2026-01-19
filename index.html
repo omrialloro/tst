@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="he">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>p5 Video Gray-Map Timewarp (10s loop)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="layout">
+  <div class="stage">
+    <div id="wrap"></div>
+  </div>
+
+  <div class="side">
+    <div class="panel">
+      <h3 class="title">📁 העלאת וידאו</h3>
+      <input id="fileInput" type="file" accept="video/*" />
+
+      <div class="rowBtns">
+        <button id="playBtn">Play (sample 10s)</button>
+        <button id="stopBtn">Stop</button>
+      </div>
+
+      <div class="hint">
+        Upload → (צייר מפה) → Play (דוגם 10 שניות) → Loop
+      </div>
+
+      <div class="badge">
+        <span class="dot paint" id="modeDot"></span>
+        <span id="modeText">MODE: PAINT</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3 class="title">🎨 מפה בגווני אפור</h3>
+
+      <label>Brush size <span id="bsVal">32</span></label>
+      <input id="brushSize" type="range" min="4" max="180" value="32" />
+
+      <label>Gray value <span id="gVal">128</span></label>
+      <input id="grayVal" type="range" min="0" max="255" value="128" />
+
+      <label>Speed scale <span id="ssVal">1.00</span></label>
+      <input id="speedScale" type="range" min="0" max="400" value="100" />
+
+      <div class="rowBtns">
+        <button id="clearBtn">Clear map (128)</button>
+        <button id="toggleMapBtn">Toggle map overlay</button>
+      </div>
+
+      <div class="hint">
+        לבן=קדימה (+1) · אפור 128=עצור (0) · שחור=רברס (-1)
+      </div>
+
+      <h3 class="title" style="margin-top:14px;">🧩 טמפלטים למפה</h3>
+      <div class="rowBtns">
+        <button id="tplLR">Gradient L → R</button>
+        <button id="tplRL">Gradient R → L</button>
+        <button id="tplCenter">Center → Sides</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3 class="title">⚙️ ביצועים</h3>
+
+      <label>Capture FPS <span id="fpsVal">24</span></label>
+      <input id="capFps" type="range" min="10" max="60" value="24" />
+
+      <label>Max display width <span id="mwVal">900</span></label>
+      <input id="maxW" type="range" min="480" max="1400" value="900" />
+    </div>
+
+    <div class="panel">
+      <h3 class="title">📊 סטטוס</h3>
+      <div class="statBox">
+        <div class="statLine"><span>Loop length</span><span id="stLoop">10.00s</span></div>
+        <div class="statLine"><span>Frames sampled</span><span id="stFrames">0/0</span></div>
+        <div class="statLine"><span>Processing res</span><span id="stRes">-</span></div>
+        <div class="statLine"><span>Map overlay</span><span id="stMap">ON</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+<script src="ui.js"></script>
+<script src="sketch.js"></script>
+</body>
+</html>
