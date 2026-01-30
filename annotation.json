@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "createdAt": "2026-01-30T16:36:09.363Z",
+  "imageName": "map.png",
+  "imageSize": {
+    "width": 1120,
+    "height": 1120
+  },
+  "annotations": [
+    {
+      "id": "dcc159-c1e776",
+      "x": 160.98039215686276,
+      "y": 464.8102789396083,
+      "title": "",
+      "notes": "",
+      "attractions": "",
+      "crops": [
+        "עגבניה"
+      ],
+      "wastewater": {
+        "enabled": false,
+        "details": ""
+      },
+      "biocontrol": {
+        "enabled": false,
+        "details": ""
+      },
+      "organic": {
+        "enabled": false,
+        "percent": ""
+      }
+    },
+    {
+      "id": "46e8f5-c204f4",
+      "x": 721.7647058823529,
+      "y": 654.6167965576385,
+      "title": "",
+      "notes": "",
+      "attractions": "",
+      "crops": [
+        "שומר"
+      ],
+      "wastewater": {
+        "enabled": false,
+        "details": ""
+      },
+      "biocontrol": {
+        "enabled": false,
+        "details": ""
+      },
+      "organic": {
+        "enabled": false,
+        "percent": ""
+      }
+    },
+    {
+      "id": "499145-c23a98",
+      "x": 913.7254901960785,
+      "y": 589.9100291878556,
+      "title": "",
+      "notes": "",
+      "attractions": "",
+      "crops": [
+        "בצל"
+      ],
+      "wastewater": {
+        "enabled": false,
+        "details": ""
+      },
+      "biocontrol": {
+        "enabled": false,
+        "details": ""
+      },
+      "organic": {
+        "enabled": false,
+        "percent": ""
+      }
+    },
+    {
+      "id": "e9caaf-c26c55",
+      "x": 210.58823529411765,
+      "y": 896.1887280714952,
+      "title": "",
+      "notes": "",
+      "attractions": "",
+      "crops": [
+        "מלפפון"
+      ],
+      "wastewater": {
+        "enabled": false,
+        "details": ""
+      },
+      "biocontrol": {
+        "enabled": false,
+        "details": ""
+      },
+      "organic": {
+        "enabled": false,
+        "percent": ""
+      }
+    },
+    {
+      "id": "0cafde-c29975",
+      "x": 551.3725490196078,
+      "y": 1027.7591550567208,
+      "title": "",
+      "notes": "",
+      "attractions": "",
+      "crops": [
+        "כרוב"
+      ],
+      "wastewater": {
+        "enabled": false,
+        "details": ""
+      },
+      "biocontrol": {
+        "enabled": false,
+        "details": ""
+      },
+      "organic": {
+        "enabled": false,
+        "percent": ""
+      }
+    },
+    {
+      "id": "6924cd-c2d3b9",
+      "x": 173.92156862745105,
+      "y": 1073.0538922155688,
+      "title": "",
+      "notes": "",
+      "attractions": "",
+      "crops": [
+        "בצל"
+      ],
+      "wastewater": {
+        "enabled": false,
+        "details": ""
+      },
+      "biocontrol": {
+        "enabled": false,
+        "details": ""
+      },
+      "organic": {
+        "enabled": false,
+        "percent": ""
+      }
+    },
+    {
+      "id": "9091da-c2fa34",
+      "x": 704.5098039215687,
+      "y": 330.00451358589356,
+      "title": "",
+      "notes": "",
+      "attractions": "",
+      "crops": [
+        "שומר"
+      ],
+      "wastewater": {
+        "enabled": false,
+        "details": ""
+      },
+      "biocontrol": {
+        "enabled": false,
+        "details": ""
+      },
+      "organic": {
+        "enabled": false,
+        "percent": ""
+      }
+    }
+  ]
+}
